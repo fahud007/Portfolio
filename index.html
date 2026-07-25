@@ -1,0 +1,1203 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fahud Ahmmed • Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Fahud Ahmmed — Aspiring AI/ML Engineer | Machine Learning Enthusiast" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="https://i.ibb.co.com/Z1bW4zfh/my-logo-3.png" />
+
+</head>
+
+<body>
+  <!-- Background blobs -->
+  <div class="bg">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="noise"></div>
+  </div>
+
+  <!-- Cursor glow -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Go to top">
+      <span class="brand-dot"></span>
+      <span>Fahud</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Leadership</a>
+      <a href="#awards">Awards</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="actions">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle theme">
+        <span class="icon" id="themeIcon">☀</span>
+      </button>
+
+      <a class="btn btn-primary" href="assets/Fahud Ahmmed CV.pdf" target="_blank" download>
+        Download CV
+        <span class="btn-glow" aria-hidden="true"></span>
+      </a>
+
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-card">
+      <div class="drawer-top">
+        <div class="drawer-title">Menu</div>
+        <button class="icon-btn" id="closeDrawer" aria-label="Close menu" type="button">✕</button>
+      </div>
+
+      <a href="#about" class="drawer-link">About</a>
+      <a href="#skills" class="drawer-link">Skills</a>
+      <a href="#education" class="drawer-link">Education</a>
+      <a href="#publications" class="drawer-link">Publications</a>
+      <a href="#projects" class="drawer-link">Projects</a>
+      <a href="#certificates" class="drawer-link">Leadership</a>
+      <a href="#awards" class="drawer-link">Awards</a>
+      <a href="#contact" class="drawer-link">Contact</a>
+
+      <div class="drawer-cta">
+        <a class="btn btn-primary w100" href="assets/Fahud Ahmmed CV.pdf" target="_blank" download>Download CV</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-left reveal">
+          <div class="pill">
+            <span class="pulse"></span>
+            Available for Internship / Trainee
+          </div>
+
+          <h1 class="title">
+            Hi, I’m Fahud Ahmmed <br />
+          </h1>
+
+          <p class="subtitle">
+            <span class="type" id="typeText"></span>
+            <span class="caret" aria-hidden="true"></span>
+          </p>
+
+          <p class="desc">
+            CSE graduate with a passion for AI and proven experience in CNN-based model development and research.
+            Seeking AI, software, or research roles.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#publications">View Research</a>
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Let’s Talk</a>
+          </div>
+
+          <div class="quick">
+            <a class="chip" href="https://mail.google.com/mail/u/0/?view=cm&to=fahudahmmed@gmail.com" target="_blank"
+              title="Email">
+              <img src="https://i.ibb.co.com/vCVfkQf9/gmail.png" alt="Gmail logo" class="icon"
+                style="width: 25px; height: 20px;" />
+              <span>fahudahmmed@gmail.com</span>
+            </a>
+
+            <a class="chip" href="https://www.linkedin.com/in/fahud-ahmmed/" target="_blank" rel="noreferrer">
+              <img src="https://i.ibb.co.com/d43rSGCz/ldin.png" alt="LinkedIn logo" class="icon"
+                style="width: 20px; height: 20px;" />
+              <span>LinkedIn</span>
+            </a>
+
+            <a class="chip" href="https://github.com/fahudahmmed10" target="_blank" rel="noreferrer">
+              <img src="https://i.ibb.co.com/YFBQZyb6/git.png" alt="GitHub logo" class="icon"
+                style="width: 20px; height: 20px;" />
+              <span>GitHub</span>
+
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right reveal">
+          <div class="portrait">
+            <img src="https://i.ibb.co.com/N26WnJqX/Fahud-Ahmmed-DP.webp" alt="Portrait of Fahud Ahmmed" />
+            <div class="ring" aria-hidden="true"></div>
+            <div class="ring r2" aria-hidden="true"></div>
+            <div class="float-card fc1">
+              <div class="kpi">CGPA</div>
+              <div class="kpi-val">3.91/4.00</div>
+            </div>
+            <div class="float-card fc2">
+              <div class="kpi">Focus</div>
+              <div class="kpi-val">AI/ML</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <div class="mouse"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>About</h2>
+
+        </div>
+
+        <div class="cards two reveal">
+          <article class="card">
+            <h3>Summary</h3>
+            <p class="desc">
+              Motivated Computer Science and Engineering graduate with expertise in
+              Machine Learning, Deep Learning, and Computer Vision. Experienced in medical
+              image analysis and CNN-based model development, with hands-on research
+              experience. Skilled in Python, TensorFlow/Keras, software development, and
+              project coordination. Proven leadership in student organizations and project
+              coordination. Seeking opportunities to apply technical, analytical, and
+              organizational skills in AI, software development, or research-focused roles.
+            </p>
+            <div class="badges">
+              <span class="badge">Fast learner</span>
+              <span class="badge">Team friendly</span>
+              <span class="badge">Directive</span>
+              <span class="badge">Adaptable</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Highlights</h3>
+            <ul class="list">
+              <li>AI/ML researcher with multiple publications in medical image analysis and deep learning.</li>
+              <li>Experienced in developing high-accuracy CNN and transfer learning models for real-world healthcare
+                applications.</li>
+              <li>Proven leadership in managing teams, organizing large-scale programs, and driving impactful
+                initiatives.</li>
+              <li>B.Sc. in CSE — Varendra University (completed)</li>
+            </ul>
+            <div class="cta-row">
+              <a class="btn btn-ghost" href="assets/Fahud Ahmmed CV.pdf" download>Download CV</a>
+              <a class="btn btn-primary" href="#contact">Hire / Collaborate</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Skills</h2>
+
+        </div>
+
+        <div class="skill-grid reveal">
+
+          <div class="skill-card" data-skill="80">
+            <div class="skill-top">
+              <h3>AI / ML</h3>
+              <span class="tag">Core</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill2">Tensorflow</span>
+              <span class="pill2">Keras</span>
+              <span class="pill2">PyTorch</span>
+              <span class="pill2">Scikit-learn</span>
+              <span class="pill2">OpenCV</span>
+            </div>
+
+            <div class="skill-meter">
+              <div class="skill-meter-row">
+                <span class="skill-meter-label">Proficiency</span>
+                <span class="skill-meter-val">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-skill="75">
+            <div class="skill-top">
+              <h3>Programming</h3>
+              <span class="tag">Tools</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill2">Python</span>
+              <span class="pill2">PHP</span>
+              <span class="pill2">Java</span>
+              <span class="pill2">C / C++</span>
+            </div>
+
+            <div class="skill-meter">
+              <div class="skill-meter-row">
+                <span class="skill-meter-label">Proficiency</span>
+                <span class="skill-meter-val">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-skill="60">
+            <div class="skill-top">
+              <h3>Web & Database</h3>
+              <span class="tag">Plus</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill2">HTML</span>
+              <span class="pill2">CSS</span>
+              <span class="pill2">SQL</span>
+              <span class="pill2">JavaScript</span>
+              <span class="pill2">MySQL</span>
+            </div>
+
+            <div class="skill-meter">
+              <div class="skill-meter-row">
+                <span class="skill-meter-label">Proficiency</span>
+                <span class="skill-meter-val">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-skill="90">
+            <div class="skill-top">
+              <h3>Soft Skills</h3>
+              <span class="tag">People</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill2">Leadership</span>
+              <span class="pill2">Teamwork</span>
+              <span class="pill2">Organize</span>
+              <span class="pill2">Problem-solving</span>
+              <span class="pill2">Effective Communication</span>
+              <span class="pill2">Time management</span>
+              <span class="pill2">Adaptability</span>
+            </div>
+
+            <div class="skill-meter">
+              <div class="skill-meter-row">
+                <span class="skill-meter-label">Strength</span>
+                <span class="skill-meter-val">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- Language Proficiency -->
+        <div class="meter-wrap reveal">
+          <div class="meter">
+            <div class="meter-label">
+              <span>Language Proficiency</span>
+              <span class="tag">People</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill2">Bengali</span>
+              <span class="pill2">English</span>
+              <span class="pill2">Hindi</span>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Optional meter (also triggers when skills appears) -->
+        <div class="meter-wrap reveal">
+          <div class="meter">
+            <div class="meter-label">
+              <span>Learning Progress</span>
+              <span class="meter-val" id="meterVal">0%</span>
+            </div>
+            <div class="bar">
+              <div class="fill" id="meterFill"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FULLSCREEN MODAL -->
+    <div id="certModal" class="cert-modal" onclick="closeCert()">
+      <img id="certPreview">
+    </div>
+
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Education</h2>
+          <p>Academic journey.</p>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="t-item">
+            <div class="dot"></div>
+            <div class="t-card">
+              <div class="t-top">
+                <h3>B.Sc. in Computer Science & Engineering</h3>
+
+                <span class="t-date">2022 – 2025</span>
+              </div>
+              <h4>Varendra University, Rajshahi.</h4>
+              <p>CGPA: 3.91 / 4.00</p>
+            </div>
+          </div>
+
+          <div class="t-item">
+            <div class="dot"></div>
+            <div class="t-card">
+              <div class="t-top">
+                <h3>Higher Secondary Certificate (HSC) Examination</h3>
+                <span class="t-date">2018 – 2020</span>
+              </div>
+              <h4>Shahid A.H.M. Kamaruzzaman Govt. Degree College, Rajshahi.</h4>
+              <p>GPA: 5.00 / 5.00 &nbsp;&nbsp; • &nbsp;&nbsp; Group: Science &nbsp;&nbsp; • &nbsp;&nbsp; Board: Rajshahi
+              </p>
+            </div>
+          </div>
+
+          <div class="t-item">
+            <div class="dot"></div>
+            <div class="t-card">
+              <div class="t-top">
+                <h3>Secondary School Certificate (SSC) Examination</h3>
+                <span class="t-date">2013 – 2018</span>
+              </div>
+              <h4>Shiroil Govt. High School, Rajshahi.</h4>
+              <p>GPA: 5.00 / 5.00 &nbsp;&nbsp; • &nbsp;&nbsp; Group: Science &nbsp;&nbsp; • &nbsp;&nbsp; Board: Rajshahi
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PUBLICATIONS -->
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Publications</h2>
+          <p>Academic and professional writings that showcase my research and insights.</p>
+        </div>
+
+        <div class="cert-grid reveal">
+
+          <!-- Colon Cancer Detection -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/5htvyhxW/colon-cancer.webp"
+                data-full="https://i.ibb.co.com/tTDRfxK8/cert-colon-cancer.jpg"
+                alt="Colon Cancer Detection Paper Certificate" class="cert-img" loading="lazy"
+                onclick="openCert(this.dataset.full)">
+            </div>
+
+
+            <div class="cert-body">
+              <h3>A Deep Learning Methodology for the Automated Histopathological Differentiation of Lung & Colon Cancer
+              </h3>
+              <p>
+                Developed an integrated deep learning approach for automated histopathological differentiation of lung
+                and colon cancer,
+                enabling accurate classification from microscopic tissue images.
+              </p>
+
+              <span class="cert-badge">Published</span>
+              •
+              <span class="cert-badge">BookChapter</span>
+              •
+              <span class="cert-badge">Springer 2026</span>
+              •
+              <span class="cert-badge">ML</span>
+              •
+              <span class="cert-badge">Medical Imaging</span>
+              •
+              <a class="btn cert-badge" href="https://doi.org/10.1007/978-3-032-15346-3_27" target="_blank">DOI:
+                10.1007/978-3-032-15346-3_27</a>
+            </div>
+          </article>
+
+          <!-- Brain Stroke Detection -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/chSRn0Nt/brain-stroke.webp"
+                data-full="https://i.ibb.co.com/PZjx0hwf/cert-brain-stroke.jpg"
+                alt="Brain Stroke Detection Paper Certificate" class="cert-img" loading="lazy"
+                onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>A Deep Transfer Learning Approach for Automated Brain Stroke Detection and Classification</h3>
+              <p>
+                Proposed a deep transfer learning framework for automated detection and classification of brain stroke
+                from medical images.
+              </p>
+
+              <span class="cert-badge">Published</span>
+              •
+              <span class="cert-badge">Conference</span>
+              •
+              <span class="cert-badge">IEEE 2026</span>
+              •
+              <span class="cert-badge">ML</span>
+              •
+              <span class="cert-badge">Medical Imaging</span>
+              •
+              <a class="btn cert-badge" href="https://doi.org/10.1109/ICCIT68739.2025.11491622" target="_blank">
+                DOI: 10.1109/ICCIT68739.2025.11491622</a>
+            </div>
+          </article>
+
+          <!-- Diabetic Retinopathy Detection -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/yw7MWwb/DR.webp" data-full="https://i.ibb.co.com/q3kVS8Dj/Cert-DR.jpg"
+                alt="Diabetic Retinopathy Detection Paper Certificate" class="cert-img" loading="lazy"
+                onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>Detection and severity classification of Diabetic Retinopathy from Fundus Images Utilizing Deep
+                Transfer Learning</h3>
+              <p>
+                Successfully conducted research on Diabetic Retinopathy Detection using deep learning techniques,
+                focusing on automated medical image analysis and classification for early disease identification.
+              </p>
+
+              <span class="cert-badge">Published</span>
+              •
+              <span class="cert-badge">Conference</span>
+              •
+              <span class="cert-badge">IEEE 2026</span>
+              •
+              <span class="cert-badge">ML</span>
+              •
+              <span class="cert-badge">Medical Imaging</span>
+              •
+              <a class="btn cert-badge" href="https://doi.org/10.1109/ICCIT68739.2025.11491822" target="_blank">
+                DOI: 10.1109/ICCIT68739.2025.11491822</a>
+            </div>
+          </article>
+
+          <!-- Brain Tumor Detection -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/prNypk5f/brain-tumor.webp"
+                data-full="https://i.ibb.co.com/xW5S75C/cert-brain-tumor.jpg"
+                alt="Brain Tumor Detection Paper Certificate" class="cert-img" loading="lazy"
+                onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>Automated Detection and Classification Method of Brain Tumors
+                Using CNNs and Deep Transfer Learning</h3>
+              <p>
+                Conducted research on Automated Detection and Classification of
+                Brain Tumors using CNNs and Deep Transfer Learning, focusing on AI-based medical image analysis for
+                accurate tumor identification.
+              </p>
+
+              <span class="cert-badge">Published</span>
+              •
+              <span class="cert-badge">Conference</span>
+              •
+              <span class="cert-badge">IEEE 2025</span>
+              •
+              <span class="cert-badge">ML</span>
+              •
+              <span class="cert-badge">Medical Imaging</span>
+              •
+              <a class="btn cert-badge" href="https://ieeexplore.ieee.org/document/11172022" target="_blank">DOI:
+                10.1109/QPAIN66474.2025.11172022 </a>
+            </div>
+          </article>
+
+          <!-- Skin Disease Detection -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/hRRZJjvB/skin-cancer.webp"
+                data-full="https://i.ibb.co.com/cSLhZjHY/cert-skin.jpg" alt="Skin Disease Detection Paper Certificate"
+                class="cert-img" loading="lazy" onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>Skin Disease Detection and Classification of Actinic Keratosis and Psoriasis Utilizing Deep Transfer
+                Learning</h3>
+              <p>
+                Implemented a deep transfer learning–based model for detection and classification of skin diseases,
+                focusing on Actinic Keratosis and Psoriasis.
+                The models were trained on dermoscopic image dataset, achieving high accuracy.
+              </p>
+
+              <span class="cert-badge">Presented</span>
+              •
+              <span class="cert-badge">Conference</span>
+              •
+              <span class="cert-badge">UCICS 2025</span>
+              •
+              <span class="cert-badge">ML</span>
+              •
+              <span class="cert-badge">Medical Imaging</span>
+              <!-- •
+          <a class="btn cert-badge" href="https://doi.org/" target="_blank">DOI: </a> -->
+            </div>
+          </article>
+
+          <!-- Skin Disease Detection Journal -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co/XfwhCcvZ/Skin-VIJIR.webp" data-full="https://i.ibb.co/TM1RgyFn/Skin-VIJIR.jpg"
+                alt="Skin Disease Detection Journal" class="cert-img" loading="lazy"
+                onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>Skin Disease Detection and Classification of Actinic Keratosis and Psoriasis Utilizing Deep Transfer
+                Learning</h3>
+              <p>
+                Extended the conference paper into a more comprehensive journal publication in VIJIR.
+                Implemented more deep transfer learning–based models. The extended study includes more robust experimentation,
+                deeper analysis, and improved results using dermoscopic image datasets.
+
+
+              </p>
+
+              <span class="cert-badge">Published</span>
+              •
+              <span class="cert-badge">Extended Journal</span>
+              •
+              <span class="cert-badge">VIJIR 2025</span>
+              •
+              <span class="cert-badge">ML</span>
+              •
+              <span class="cert-badge">Medical Imaging</span>
+              •
+              <a class="btn cert-badge" href="https://doi.org/10.64296/vijir.v1i2.04" target="_blank">DOI:
+                10.64296/vijir.v1i2.04</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Experience -->
+    <!-- <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Experience</h2>
+          <p>Hands-on roles that built responsibility and execution.</p>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="t-item">
+            <div class="dot"></div>
+            <div class="t-card">
+              <div class="t-top">
+                <h3>Co-Owner • Tech-Zone Computer</h3>
+                <span class="t-date">Sep 2024 – Jun 2025</span>
+              </div>
+              <p>
+                Managed operations and taught Basic Computer courses. Supported software planning & design activities.
+              </p>
+            </div>
+          </div>
+
+          <div class="t-item">
+            <div class="dot"></div>
+            <div class="t-card">
+              <div class="t-top">
+                <h3>Computer Operator • Bio-Chemistry Coaching Center</h3>
+                <span class="t-date">Jul 2022 – Nov 2024</span>
+              </div>
+              <p>
+                Designed posters and digital content; helped with day-to-day admin (part-time).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Projects</h2>
+          <p>Real-world applications I designed and deployed.</p>
+        </div>
+
+        <div class="proj-grid reveal">
+
+          <!-- Project 1 -->
+          <article class="proj-card">
+            <div class="proj-top">
+              <h3>School Management System</h3>
+              <span class="mini">Web Application</span>
+            </div>
+
+            <p>
+              A comprehensive system for managing school operations including
+              student records, attendance, results, and role-based access for
+              admin, teachers, students, and parents.
+            </p>
+
+            <div class="proj-tags">
+              <span>Laravel (PHP)</span>
+              <span>Role-Based System</span>
+              <span>MySQL Database</span>
+              <span>Responsive UI</span>
+            </div>
+
+            <!-- <div class="proj-actions">
+              <a class="btn btn-primary" href="" target="_blank" rel="noreferrer">
+                Live Demo
+              </a>
+
+              <a class="btn btn-ghost" href="" target="_blank"
+                rel="noreferrer">
+                GitHub
+              </a>
+            </div> -->
+          </article>
+
+
+          <!-- Project 2 -->
+          <article class="proj-card">
+            <div class="proj-top">
+              <h3>Hotel Management System</h3>
+              <span class="mini">Java Application</span>
+            </div>
+
+            <p>
+              A system for managing hotel operations including room booking,
+              guest check-in/check-out, and room allocation, ensuring smooth and
+              efficient service.
+            </p>
+
+            <div class="proj-tags">
+              <span>Java</span>
+              <span>OOP</span>
+              <span>Database Integration</span>
+              <span>GUI Development</span>
+            </div>
+
+            <!-- <div class="proj-actions">
+              <a class="btn btn-primary" href="" target="_blank" rel="noreferrer">
+                Live Demo
+              </a>
+
+              <a class="btn btn-ghost" href="https://github.com/fahud007/Hotel-Management-System" target="_blank"
+                rel="noreferrer">
+                GitHub
+              </a>
+            </div> -->
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Leadership -->
+    <section class="section" id="certificates">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Leadership</h2>
+          <p>Leadership roles and organizational experiences that developed my coordination, management, and
+            team-leading abilities.</p>
+        </div>
+
+        <div class="cert-grid2 reveal">
+
+          <!-- VUSC Founder -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/zWGrx6Tc/VUSC-Founder.webp"
+                data-full="https://i.ibb.co.com/KzF5wMJv/VUSC-Founder.png" alt="VUSC Founder Certificate"
+                class="cert-img" loading="lazy" onclick="openCert(this.dataset.full)">
+            </div>
+
+
+
+            <div class="cert-body">
+              <h3>Varendra University Sciences Club</h3>
+              <div class="proj-tags">
+                <span>Founder</span>
+                <span>Lifetime Member</span>
+              </div>
+              <p>Established the Varendra University Sciences Club (VUSC), driving initiatives and fostering a vibrant
+                student community.</p>
+            </div>
+
+          </article>
+
+
+          <!-- VUSC GS -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/zWGrx6Tc/VUSC-Founder.webp"
+                data-full="https://i.ibb.co.com/KzF5wMJv/VUSC-Founder.png" alt="VUSC GS Certificate" class="cert-img"
+                loading="lazy" onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>Varendra University Sciences Club</h3>
+              <div class="proj-tags">
+                <span>General Secretary</span>
+                <span>Jan 25 - Dec 25</span>
+
+              </div>
+              <p>Served as General Secretary of Varendra University Science Club (VUSC),
+                leading a 200+ member club, organizing programs, and coordinating teams.
+              </p>
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <div class="cert-grid2 reveal">
+
+          <!-- Hult Co -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/FkWWJYRG/Hult-Co.webp"
+                data-full="https://i.ibb.co.com/Q3qgXj69/Hult-Co.jpg" alt="Hult Coordinator Certificate"
+                class="cert-img" loading="lazy" onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>Hult Prize at Varendra University</h3>
+              <div class="proj-tags">
+                <span>Team Coordinator</span>
+                <span>Feb 24 - Feb 25</span>
+              </div>
+              <p>Managed a 50+ organizing team and 200+ participants, contributing to a top 7 campus rounds in Asia.</p>
+            </div>
+
+          </article>
+
+
+          <!-- Hult IT -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/JFKKbHmj/Hult-it.webp"
+                data-full="https://i.ibb.co.com/fYnWcPXX/Hult-it.jpg" alt="Hult IT Certificate" class="cert-img"
+                loading="lazy" onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>Hult Prize at Varendra University</h3>
+              <div class="proj-tags">
+                <span>IT Executive</span>
+                <span>Feb 23 - Feb 24</span>
+
+              </div>
+              <p>Served as IT Executive for the Hult Prize at Varendra University,
+                managing technical operations and supporting the innovation team.
+              </p>
+            </div>
+
+          </article>
+
+        </div>
+
+        <div class="cert-grid2 reveal">
+
+          <!-- CUSS CA -->
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/SD2xV0HP/cuss-ca.webp"
+                data-full="https://i.ibb.co.com/7dQkQm1G/cuss-ca.png" alt="VUSC Founder Certificate" class="cert-img"
+                loading="lazy" onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>Chittagong University Scientific Society</h3>
+              <div class="proj-tags">
+                <span>Campus Ambassador</span>
+                <span>Jan 25 - Jul 25</span>
+              </div>
+              <p>Served as Campus Ambassador for the Chittagong University Scientific Society,
+                promoting initiatives and engaging students in scientific activities.
+              </p>
+            </div>
+
+          </article>
+
+
+
+
+
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+    <!-- Awards and Participations -->
+    <section class="section" id="awards">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Awards & Participations</h2>
+          <p>Championships and participations that reflect my achievements, competitive spirit, and active engagement.
+          </p>
+        </div>
+
+        <!-- Procon Champion -->
+        <div class="cert-grid2 reveal">
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/vxxb9R6F/Pro-Con-Champion.webp"
+                data-full="https://i.ibb.co.com/pBbfTPhz/Pro-Con-Champion.jpg" alt="Procon Champion Certificate"
+                class="cert-img-long" loading="lazy" onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>International Professional Activities Congress – ProCon 2025</h3>
+              <div class="proj-tags">
+                <span>Champion</span>
+                <span> Idea Showcasing with Poster Presentation</span>
+                <span> IEEE Bangladesh Section</span>
+              </div>
+              <p>Achieved Champion position in Idea Showcasing (Poster Presentation) at ProCon 2025,
+                organized by IEEE Bangladesh Section, presenting innovative concepts and
+                demonstrating strong research and communication skills.</p>
+            </div>
+
+          </article>
+        </div>
+
+        <!-- VUIRF Champion -->
+        <div class="cert-grid2 reveal">
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/h1H5wSCB/CIR-Champion.webp"
+                data-full="https://i.ibb.co.com/N61y5zPs/CIR-Champion.png" alt="VUIRF Champion Certificate"
+                class="cert-img" loading="lazy" onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>Varendra University Interdisciplinary Research Fest - VUIRF</h3>
+              <div class="proj-tags">
+                <span>Champion</span>
+                <span> Research Poster Presentation</span>
+                <span> Center for Interdisciplinary Research (CIR)</span>
+              </div>
+              <p>Achieved Champion position in Research Poster Presentation at
+                Varendra University Interdisciplinary Research Fest (VUIRF),
+                organized by the VU - CIR, showcasing research excellence and effective presentation skills.
+              </p>
+            </div>
+
+          </article>
+        </div>
+
+        <!-- VisionX -->
+        <div class="cert-grid2 reveal">
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/KxcWQDXS/visionx.webp"
+                data-full="https://i.ibb.co.com/4gWH6crk/visionx.png" alt="VisionX Participant Certificate"
+                class="cert-img" loading="lazy" onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>VisionX 2025 - AI powered National Innovation Challenge</h3>
+              <div class="proj-tags">
+                <span>Top 20 Participant</span>
+                <span> Business Idea Presentation</span>
+                <span> Dept. of CSE, University of Dhaka</span>
+              </div>
+              <p>Recognized as a Top 20 Participant in Business Idea Presentation
+                at VisionX 2025, organized by the Department of CSE, University of Dhaka,
+                demonstrating innovation and entrepreneurial thinking.
+              </p>
+            </div>
+
+          </article>
+        </div>
+
+        <!-- EWU Robofest -->
+        <div class="cert-grid2 reveal">
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/4gtRc19R/EWU.webp" data-full="https://i.ibb.co.com/twRy00nG/EWU.png"
+                alt="EWU Robofest Participant Certificate" class="cert-img" loading="lazy"
+                onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>East West University National RoboFest 2024</h3>
+              <div class="proj-tags">
+                <span>Participant</span>
+                <span> Robo-Soccer & LFR</span>
+                <span> East West University Robotics Club</span>
+              </div>
+              <p>Participated in Robo-Soccer and Line Following Robot (LFR) events
+                at East West University National RoboFest 2024, organized by the
+                East West University Robotics Club, demonstrating hands-on robotics and problem-solving skills.
+              </p>
+            </div>
+
+          </article>
+        </div>
+
+        <!-- VU Tech Carnival Software -->
+        <div class="cert-grid2 reveal">
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/tw7sppRP/techfest-soft.webp"
+                data-full="https://i.ibb.co.com/rRP0MtZ5/techfest-soft.png"
+                alt="VU Tech Carnival Software Participant Certificate" class="cert-img" loading="lazy"
+                onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>VU Tech Carnival 2024</h3>
+              <div class="proj-tags">
+                <span>Participant</span>
+                <span> Software Project Showcasing</span>
+                <span> Dept. of CSE, Varendra University</span>
+              </div>
+              <p>Participated in Software Project Showcasing at VU Tech Carnival 2024,
+                organized by the Department of CSE, Varendra University, demonstrating practical development and
+                presentation skills.
+              </p>
+            </div>
+
+          </article>
+        </div>
+
+        <!-- VU Tech Carnival Hardware -->
+        <div class="cert-grid2 reveal">
+          <article class="cert-card">
+            <div class="cert-img-wrap">
+              <img src="https://i.ibb.co.com/BHNJQnZr/techfest-hard.webp"
+                data-full="https://i.ibb.co.com/qMqtrJ8m/techfest-hard.png"
+                alt="VU Tech Carnival Hardware Participant Certificate" class="cert-img" loading="lazy"
+                onclick="openCert(this.dataset.full)">
+            </div>
+
+            <div class="cert-body">
+              <h3>VU Tech Carnival 2024</h3>
+              <div class="proj-tags">
+                <span>Participant</span>
+                <span> Hardware Project Showcasing</span>
+                <span> Dept. of CSE, Varendra University</span>
+              </div>
+              <p>Participated in Hardware Project Showcasing at VU Tech Carnival 2024,
+                organized by the Department of CSE, Varendra University, demonstrating practical engineering and
+                presentation skills.
+              </p>
+            </div>
+
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Contact</h2>
+          <p>Feel free to reach out for any queries or collaborations.</p>
+        </div>
+
+        <div class="cards two reveal">
+          <!-- Premium Contact card -->
+          <article class="card contact-pro">
+            <div class="contact-hero">
+              <div>
+                <h3>Get in touch</h3>
+                <p class="muted">Fast response — email is best. You can also copy details in one click.</p>
+              </div>
+              <div class="contact-art" aria-hidden="true">
+                <svg viewBox="0 0 240 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.35"
+                    d="M20 110C60 55 105 40 160 55C205 67 220 98 220 110C220 125 205 132 160 132H60C30 132 10 125 20 110Z"
+                    fill="url(#g1)" />
+                  <path
+                    d="M55 55C55 40 67 28 82 28H160C175 28 187 40 187 55V92C187 107 175 119 160 119H82C67 119 55 107 55 92V55Z"
+                    stroke="url(#g2)" stroke-width="3" />
+                  <path d="M62 55L121 84L180 55" stroke="url(#g2)" stroke-width="3" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <defs>
+                    <linearGradient id="g1" x1="20" y1="40" x2="220" y2="132" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="rgba(34,211,238,1)" />
+                      <stop offset="1" stop-color="rgba(124,58,237,1)" />
+                    </linearGradient>
+                    <linearGradient id="g2" x1="55" y1="28" x2="187" y2="119" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="rgba(34,211,238,1)" />
+                      <stop offset="1" stop-color="rgba(124,58,237,1)" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+
+            <div class="contact-list">
+              <button class="copy pro" data-copy="fahudahmmed@gmail.com">
+                <span class="ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M4 7.5C4 6.12 5.12 5 6.5 5h11C19.88 5 21 6.12 21 7.5v9C21 17.88 19.88 19 18.5 19h-11C5.12 19 4 17.88 4 16.5v-9Z"
+                      stroke="currentColor" stroke-width="2" />
+                    <path d="M5.5 7l6.5 5 6.5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <div>
+                  <div class="lbl">Email</div>
+                  <div class="val">fahudahmmed@gmail.com</div>
+                </div>
+                <span class="hint">Copy</span>
+              </button>
+
+              <button class="copy pro" data-copy="+8801776084801">
+                <span class="ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M8 3h3l1 6-2 1c1 2 3 4 5 5l1.2-2L22 14v3c0 1-1 2-2 2C11 19 5 13 5 6c0-1 1-3 3-3Z"
+                      stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <div>
+                  <div class="lbl">Phone</div>
+                  <div class="val">+8801776-084801</div>
+                </div>
+                <span class="hint">Copy</span>
+              </button>
+
+              <a class="copy pro link" href="https://www.linkedin.com/in/fahud-ahmmed/" target="_blank"
+                rel="noreferrer">
+                <span class="ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M6.5 10V18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M6.5 6.5V6.7" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+                    <path d="M10.5 18v-4.2c0-2.2 3-2.4 3-0.1V18" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" />
+                    <path d="M13.5 13.7c0-3.4 4-3.3 4 0V18" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" />
+                    <path d="M3.5 4.5h17c1.1 0 2 .9 2 2v11c0 1.1-.9 2-2 2h-17c-1.1 0-2-.9-2-2v-11c0-1.1.9-2 2-2Z"
+                      stroke="currentColor" stroke-width="2" />
+                  </svg>
+                </span>
+                <div>
+                  <div class="lbl">LinkedIn</div>
+                  <div class="val">fahud-ahmmed</div>
+                </div>
+                <span class="hint">Open</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Message Form -->
+          <article class="card">
+            <h3>Message me</h3>
+
+            <form class="form" id="contactForm">
+              <div class="row">
+                <label>
+                  Name
+                  <input type="text" id="name" placeholder="Your name" required />
+                </label>
+
+                <label>
+                  Email
+                  <input type="email" id="email" placeholder="you@email.com" required />
+                </label>
+              </div>
+
+              <label>
+                Subject
+                <textarea id="subject" rows="1" placeholder="Write your subject..." required></textarea>
+              </label>
+
+              <label>
+                Message
+                <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+              </label>
+
+              <!-- IMPORTANT: id added -->
+              <button class="btn btn-primary" type="submit" id="sendBtn">
+                Send Message
+              </button>
+
+              <!-- IMPORTANT: id added -->
+              <p class="form-note" id="formNote">
+                Sends directly from this website (no email app needed).
+              </p>
+
+
+            </form>
+          </article>
+
+        </div>
+
+
+        <footer class="footer reveal">
+          <div class="foot-left">© <span id="year"></span> - Fahud Ahmmed</div>
+          <div class="foot-right">
+            <a href="#home">Back to top ↑</a>
+          </div>
+        </footer>
+
+
+      </div>
+    </section>
+  </main>
+
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Copied!</div>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
